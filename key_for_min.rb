@@ -4,3 +4,16 @@
 def key_for_min_value(name_hash)
 
 end
+
+num_array = [43, 1, -218, 123]
+
+def lowest(array)
+min_num = array[0]
+  num_array.map do |int|
+    if int <= min_num 
+      min_num = int
+    end 
+  end
+min_num  
+  
+  
