@@ -7,6 +7,8 @@ def key_for_min_value(name_hash)
     int_array << value
   end
   lowest(int_array)
+  min_int = lowest(int_array)
+  hash.key(min_int)
 end
 
 num_array = [43, 1, -218, 123]
