@@ -15,5 +15,4 @@ min_num = array[0]
     end
   end
 min_num
-
-  
+end
